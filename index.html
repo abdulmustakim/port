@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Abdul Mustakim Molla | Web Developer Portfolio</title>
+  <meta name="description" content="Portfolio website of Abdul Mustakim Molla, ITI COPA student, Web Developer, Frontend Developer, and AI project creator." />
+  <meta name="keywords" content="Abdul Mustakim Molla, Web Developer, Frontend Developer, Portfolio, ITI COPA, JavaScript, HTML CSS" />
+  <meta name="author" content="Abdul Mustakim Molla" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Abdul Mustakim Molla | Web Developer Portfolio" />
+  <meta property="og:description" content="Modern portfolio website for web development, AI projects, and client-ready websites." />
+  <meta property="og:type" content="website" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div class="loader" id="loader">
+    <div class="loader-ring"></div>
+    <p>Loading Portfolio...</p>
+  </div>
+
+  <!-- Scroll Progress -->
+  <div class="scroll-progress" id="scrollProgress"></div>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-mark">AM</span>
+        <span>Abdul<span>.</span></span>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+        <a href="#contact" class="btn btn-small">Hire Me</a>
+        <button class="hamburger" id="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero section" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">ITI COPA Student • Web Developer</p>
+          <h1>Hi, I'm <span>Abdul Mustakim Molla</span></h1>
+          <h2>I build <span id="typingText">modern websites</span></h2>
+          <p class="hero-text">
+            I create clean, responsive, and professional websites using HTML, CSS,
+            JavaScript, and modern frontend ideas. My focus is building real projects
+            for students, local businesses, clinics, portfolios, and AI-based web tools.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn">View Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+            <a href="assets/abdul-cv.txt" download class="btn btn-light">Download CV</a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <strong>10+</strong>
+              <span>Project Ideas</span>
+            </div>
+            <div>
+              <strong>ITI</strong>
+              <span>COPA Trade</span>
+            </div>
+            <div>
+              <strong>100%</strong>
+              <span>Responsive Design</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="profile-card">
+            <div class="profile-photo">
+              <span>AM</span>
+            </div>
+            <h3>Abdul Mustakim Molla</h3>
+            <p>Frontend Developer & AI Project Creator</p>
+            <div class="code-box">
+              <div class="code-header">
+                <span></span><span></span><span></span>
+              </div>
+              <pre><code>const developer = {
+  name: "Abdul",
+  skills: ["HTML", "CSS", "JS"],
+  goal: "Full Stack Developer"
+};</code></pre>
+            </div>
+          </div>
+
+          <div class="floating-tag tag-one">HTML</div>
+          <div class="floating-tag tag-two">CSS</div>
+          <div class="floating-tag tag-three">JavaScript</div>
+          <div class="floating-tag tag-four">React</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div class="about-card reveal">
+          <div class="about-avatar">👨‍💻</div>
+          <h3>Developer Profile</h3>
+          <p>
+            I am building my future in web development by creating useful,
+            practical, and client-ready projects.
+          </p>
+          <div class="about-info">
+            <p><strong>Name:</strong> Abdul Mustakim Molla</p>
+            <p><strong>Trade:</strong> ITI COPA</p>
+            <p><strong>Interest:</strong> Web Development & AI Tools</p>
+            <p><strong>Goal:</strong> Full-Stack Web Developer</p>
+          </div>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="eyebrow">About Me</p>
+          <h2>Future-focused Web Developer</h2>
+          <p>
+            I am an ITI COPA student with strong interest in frontend development,
+            responsive websites, UI design, JavaScript projects, and AI-powered web tools.
+            I like building projects that can be used in real life, such as CV builders,
+            clinic websites, dashboards, file tools, and student websites.
+          </p>
+          <p>
+            My aim is to improve step by step, complete strong portfolio projects,
+            and start earning through freelance web development and local business websites.
+          </p>
+
+          <div class="about-highlights">
+            <div>
+              <span>🎯</span>
+              <h4>Career Goal</h4>
+              <p>Full-stack web developer with AI integration skills.</p>
+            </div>
+            <div>
+              <span>🚀</span>
+              <h4>Work Style</h4>
+              <p>Modern design, mobile-first layout, clean code.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">My Skills</p>
+          <h2>Technologies & Tools</h2>
+          <p>These are the skills I am learning and using to build real projects.</p>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-category reveal">
+            <h3>Frontend</h3>
+            <div class="skill-item">
+              <span>HTML5</span><strong>90%</strong>
+              <div class="skill-bar"><div style="--width:90%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>CSS3</span><strong>85%</strong>
+              <div class="skill-bar"><div style="--width:85%"></div></div>
+            </div>
+            <div class="skill-item">
+              <span>JavaScript</span><strong>75%</strong>
+              <div class="skill-bar"><div style="--width:75%"></div></div>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <h3>Frameworks</h3>
+            <div class="skill-tags">
+              <span>Bootstrap</span>
+              <span>Tailwind CSS</span>
+              <span>React.js</span>
+              <span>Responsive UI</span>
+              <span>Material Design</span>
+              <span>Animation</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <h3>Backend & Database</h3>
+            <div class="skill-tags">
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>Firebase</span>
+              <span>MongoDB</span>
+              <span>Supabase</span>
+              <span>API Integration</span>
+            </div>
+          </div>
+
+          <div class="skill-category reveal">
+            <h3>Tools</h3>
+            <div class="skill-tags">
+              <span>VS Code</span>
+              <span>GitHub</span>
+              <span>Netlify</span>
+              <span>Vercel</span>
+              <span>Canva</span>
+              <span>Figma</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">My Projects</p>
+          <h2>Featured Project Work</h2>
+          <p>Projects that show my web development, UI design, and practical problem-solving skills.</p>
+        </div>
+
+        <div class="project-filters reveal">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Websites</button>
+          <button class="filter-btn" data-filter="tool">Tools</button>
+          <button class="filter-btn" data-filter="ai">AI Ideas</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-thumb gradient-one">
+              <span>AI CV</span>
+            </div>
+            <div class="project-body">
+              <h3>AI CV & Resume Builder</h3>
+              <p>A resume builder with templates, live preview, editable sections, and PDF download idea.</p>
+              <div class="tech-stack">
+                <span>HTML</span><span>CSS</span><span>JS</span><span>AI</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="web">
+            <div class="project-thumb gradient-two">
+              <span>Clinic</span>
+            </div>
+            <div class="project-body">
+              <h3>Doctor Clinic Website</h3>
+              <p>Professional clinic website with appointment form, WhatsApp booking, gallery, FAQ, and map.</p>
+              <div class="tech-stack">
+                <span>HTML</span><span>CSS</span><span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="tool">
+            <div class="project-thumb gradient-three">
+              <span>PDF</span>
+            </div>
+            <div class="project-body">
+              <h3>JPG to PDF Converter</h3>
+              <p>A web tool that converts image files into PDF format with simple upload and download options.</p>
+              <div class="tech-stack">
+                <span>JavaScript</span><span>PDF</span><span>Tool</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="tool">
+            <div class="project-thumb gradient-four">
+              <span>Canvas</span>
+            </div>
+            <div class="project-body">
+              <h3>Hand Tracking Drawing Canvas</h3>
+              <p>A computer vision project concept where users can draw in air using hand movement tracking.</p>
+              <div class="tech-stack">
+                <span>JS</span><span>Camera</span><span>Canvas</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="web">
+            <div class="project-thumb gradient-five">
+              <span>ITI</span>
+            </div>
+            <div class="project-body">
+              <h3>ITI Syllabus Website</h3>
+              <p>A student-focused website for ITI trades, syllabus PDFs, college details, and useful resources.</p>
+              <div class="tech-stack">
+                <span>HTML</span><span>CSS</span><span>Data</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="ai">
+            <div class="project-thumb gradient-six">
+              <span>AI PPT</span>
+            </div>
+            <div class="project-body">
+              <h3>AI PPT Generator Website</h3>
+              <p>An AI-powered website idea where users enter details and generate editable PPT presentations.</p>
+              <div class="tech-stack">
+                <span>AI</span><span>PPTX</span><span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" class="btn btn-small">Live Demo</a>
+                <a href="#" class="btn btn-outline btn-small">Source Code</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Services</p>
+          <h2>What I Can Create</h2>
+          <p>These services can help local businesses, students, creators, and professionals.</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card reveal">
+            <span>💼</span>
+            <h3>Portfolio Website</h3>
+            <p>Personal portfolio website for students, freelancers, and developers.</p>
+          </div>
+          <div class="service-card reveal">
+            <span>🏥</span>
+            <h3>Doctor Clinic Website</h3>
+            <p>Clinic website with appointment form, WhatsApp booking, and Google Map.</p>
+          </div>
+          <div class="service-card reveal">
+            <span>🏫</span>
+            <h3>School / Institute Website</h3>
+            <p>Modern educational website with courses, notices, gallery, and contact.</p>
+          </div>
+          <div class="service-card reveal">
+            <span>🛒</span>
+            <h3>Business Website</h3>
+            <p>Clean business website for shops, agencies, restaurants, and local brands.</p>
+          </div>
+          <div class="service-card reveal">
+            <span>📄</span>
+            <h3>CV / Resume Website</h3>
+            <p>Online CV, resume builder, and downloadable resume profile page.</p>
+          </div>
+          <div class="service-card reveal">
+            <span>🤖</span>
+            <h3>AI Web Tools</h3>
+            <p>AI chatbot, AI content tools, AI PPT, and smart productivity website ideas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education" id="education">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Education & Journey</p>
+          <h2>My Learning Path</h2>
+          <p>A clear direction toward web development, freelancing, and real-world projects.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>ITI COPA</h3>
+              <p class="timeline-date">2025 - 2026</p>
+              <p>Computer Operator and Programming Assistant trade with interest in web development and practical computer projects.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Frontend Development</h3>
+              <p class="timeline-date">Current Focus</p>
+              <p>Learning HTML, CSS, JavaScript, responsive design, UI/UX, GitHub hosting, and professional website creation.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <h3>Future Goal</h3>
+              <p class="timeline-date">Next Step</p>
+              <p>Learn React, Node.js, database, authentication, AI integration, and build full-stack client projects.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resume CTA -->
+    <section class="resume-cta section">
+      <div class="container resume-box reveal">
+        <div>
+          <p class="eyebrow">Resume</p>
+          <h2>Download My CV</h2>
+          <p>Download my basic CV file and update it with your latest skills, projects, and certificates.</p>
+        </div>
+        <a href="assets/abdul-cv.txt" download class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section testimonials" id="testimonials">
+      <div class="container">
+        <div class="section-title reveal">
+          <p class="eyebrow">Testimonials</p>
+          <h2>Client Feedback Preview</h2>
+          <p>Add real client feedback here after completing your first paid projects.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal">
+            <p>“Abdul created a clean and responsive website design. Good effort and professional layout.”</p>
+            <h4>Demo Client</h4>
+            <span>Website Project</span>
+          </div>
+          <div class="testimonial-card reveal">
+            <p>“The portfolio and project design looked modern, simple, and mobile-friendly.”</p>
+            <h4>Demo Review</h4>
+            <span>Portfolio Website</span>
+          </div>
+          <div class="testimonial-card reveal">
+            <p>“Good design sense and practical project ideas for students and local businesses.”</p>
+            <h4>Demo Feedback</h4>
+            <span>Project Review</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-content reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Let's Work Together</h2>
+          <p>
+            Need a portfolio, clinic website, student project, business website, or AI tool website?
+            Send me a message.
+          </p>
+
+          <div class="contact-list">
+            <a href="mailto:abdulmustakim2005@gmail.com">
+              <span>✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p>abdulmustakim2005@gmail.com</p>
+              </div>
+            </a>
+            <a href="https://github.com/abdulmustakim2005" target="_blank" rel="noopener">
+              <span>💻</span>
+              <div>
+                <strong>GitHub</strong>
+                <p>@abdulmustakim2005</p>
+              </div>
+            </a>
+            <a href="https://wa.me/910000000000" target="_blank" rel="noopener">
+              <span>💬</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <p>Update with your real number</p>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <h3>Send Message</h3>
+          <div class="form-group">
+            <label for="name">Your Name *</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Your Email *</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+          <div class="form-group">
+            <label for="service">Service Needed</label>
+            <select id="service">
+              <option>Portfolio Website</option>
+              <option>Business Website</option>
+              <option>Doctor Clinic Website</option>
+              <option>College Project Website</option>
+              <option>AI Tool Website</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" rows="5" placeholder="Write your project details..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+          <p class="form-note">This demo form shows success message. To receive emails, connect Formspree, EmailJS, or backend API.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="#home" class="logo footer-logo">
+          <span class="logo-mark">AM</span>
+          <span>Abdul<span>.</span></span>
+        </a>
+        <p>
+          Web Developer, ITI COPA student, and AI project creator focused on
+          useful, responsive, and client-ready websites.
+        </p>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+      </div>
+
+      <div>
+        <h3>Services</h3>
+        <a href="#services">Portfolio Website</a>
+        <a href="#services">Business Website</a>
+        <a href="#services">Clinic Website</a>
+        <a href="#services">AI Web Tools</a>
+      </div>
+
+      <div>
+        <h3>Social Links</h3>
+        <a href="mailto:abdulmustakim2005@gmail.com">Email</a>
+        <a href="https://github.com/abdulmustakim2005" target="_blank" rel="noopener">GitHub</a>
+        <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#" target="_blank" rel="noopener">Instagram</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Abdul Mustakim Molla. All Rights Reserved.</p>
+      <p>Made with HTML, CSS & JavaScript</p>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <a href="https://wa.me/910000000000" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="WhatsApp">💬</a>
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

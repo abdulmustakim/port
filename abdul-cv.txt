@@ -1,0 +1,48 @@
+ABDUL MUSTAKIM MOLLA
+Web Developer | ITI COPA Student | AI Project Creator
+
+Email: abdulmustakim2005@gmail.com
+GitHub: github.com/abdulmustakim2005
+
+CAREER OBJECTIVE
+To become a skilled full-stack web developer and create modern, responsive,
+client-ready websites and AI-powered web tools.
+
+EDUCATION
+ITI COPA - Computer Operator and Programming Assistant
+Session: 2025 - 2026
+
+SKILLS
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
+- UI/UX Design Basics
+- GitHub Hosting
+- Bootstrap / Tailwind CSS Basics
+- React.js Basics
+- Node.js Basics
+- Firebase / Supabase Basics
+
+PROJECTS
+1. AI CV & Resume Builder
+2. Doctor Clinic Website
+3. Hand Tracking Drawing Canvas
+4. JPG to PDF Converter
+5. Image Resizer
+6. World Clock
+7. Smart Service Dashboard
+8. ITI Syllabus Website
+9. AI PPT Generator Website
+10. West Bengal Tourism Website
+
+SERVICES
+- Portfolio Website
+- Business Website
+- Doctor Clinic Website
+- School / College Website
+- Resume Website
+- AI Web Tools
+
+GOAL
+Freelance Web Developer and Full-Stack Developer.
